@@ -29,6 +29,7 @@
 		5EA5D71617369F0800E729CA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA5D71517369F0800E729CA /* CoreData.framework */; };
 		5EA5D7501736AADF00E729CA /* CoffeeTimer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5EA5D74E1736AADF00E729CA /* CoffeeTimer.xcdatamodeld */; };
 		5EA5D7531736AD1500E729CA /* CTRTimerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA5D7521736AD1500E729CA /* CTRTimerModel.m */; };
+		94FB4A06190E0785009FCBC0 /* UIApplication+EventAutomator.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FB4A05190E0785009FCBC0 /* UIApplication+EventAutomator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,8 @@
 		5EA5D74F1736AADF00E729CA /* CoffeeTimer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoffeeTimer.xcdatamodel; sourceTree = "<group>"; };
 		5EA5D7511736AD1500E729CA /* CTRTimerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTRTimerModel.h; sourceTree = "<group>"; };
 		5EA5D7521736AD1500E729CA /* CTRTimerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTRTimerModel.m; sourceTree = "<group>"; };
+		94FB4A04190E0785009FCBC0 /* UIApplication+EventAutomator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+EventAutomator.h"; sourceTree = "<group>"; };
+		94FB4A05190E0785009FCBC0 /* UIApplication+EventAutomator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+EventAutomator.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +165,8 @@
 				5E5FC4B816FE58F30086DA7E /* View Controllers */,
 				5E5FC4B916FE59010086DA7E /* Models */,
 				5E964D7E16F4DD080074FB6A /* Supporting Files */,
+				94FB4A04190E0785009FCBC0 /* UIApplication+EventAutomator.h */,
+				94FB4A05190E0785009FCBC0 /* UIApplication+EventAutomator.m */,
 			);
 			path = "Coffee Timer";
 			sourceTree = "<group>";
@@ -259,6 +264,7 @@
 				5E964D8816F4DD080074FB6A /* CTRAppDelegate.m in Sources */,
 				5E5FC4B716FE58E30086DA7E /* CTRTimerDetailViewController.m in Sources */,
 				5E5FC4BC16FF506D0086DA7E /* CTRTimerEditViewController.m in Sources */,
+				94FB4A06190E0785009FCBC0 /* UIApplication+EventAutomator.m in Sources */,
 				5E127FE91708C00900FEBC11 /* CTRTimerListViewController.m in Sources */,
 				5EA5D7501736AADF00E729CA /* CoffeeTimer.xcdatamodeld in Sources */,
 				5EA5D7531736AD1500E729CA /* CTRTimerModel.m in Sources */,
